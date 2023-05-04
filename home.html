@@ -1,0 +1,108 @@
+<!DOCTYpe html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="styles.css">
+
+		<!--===== Google Fonts =====-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+		<!--===== Favicon =====-->
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+
+		<!--===== Boxicons =====-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+		<title>Victor Hoang</title>
+	</head>
+
+	<body>
+		<!--===== Header =====-->
+		<div id="header">
+			<h1 id="name">VH</h1>
+
+			<div id="nav-wrapper">
+				<div id="nav">
+					<a href="home.html" class="active">Home</a>
+					<a href="resume.html">Resume</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</div>
+
+			<div class="clearfloat"></div>
+		</div>
+
+		<!--===== Welcome Message =====-->
+		<div>
+			<ul class="fly-in-text hidden">
+				<li>W</li>
+				<li>E</li>
+				<li>L</li>
+				<li>C</li>
+				<li>O</li>
+				<li>M</li>
+				<li>E</li>
+			</ul>
+		</div>
+
+		<div id="background1"></div>
+
+		<!--===== Introduction =====-->
+		<div id="intro">
+			<h1>Hello, I'm Victor Hoang.</h1>
+
+			<p>I am a sophomore at the University of Southern California studying Computer Science.</p>
+
+			<p>I am always looking for new <a href="resume.html">professional opportunities</a> in software engineering.</p>
+
+			<p>I love to travel, play football, and go to concerts.</p>
+
+			<p>Let's <a href="contact.html">code together</a>.</p>
+		</div>
+
+		<div id="background2">
+			<p><a href="resume.pdf" target="_blank">R E S U M E</a></p>
+		</div>
+
+		<!--===== Footer =====-->
+		<div id="footer">
+			<h1>Victor Hoang</h1>
+
+			<div id="socal_media">
+				<div class="socials">
+					<a href="https://instagram.com/victorrhoang?igshid=YmMyMTA2M2Y=" target="_blank"><i class='bx bxl-instagram-alt social_icon'></i></a>
+				</div>
+
+				<div class="socials">
+					<a href="https://github.com/VictorH38" target="_blank"><i class='bx bxl-github social_icon'></i></a>
+				</div>
+
+				<div class="socials">
+					<a href="https://www.linkedin.com/in/victor-hoang-b707b4252/" target="_blank"><i class='bx bxl-linkedin-square social_icon'></i></a>
+				</div>
+			</div>
+
+			<div id="border"></div>
+
+			<p class="footer__copy">&#169; Victor Hoang. All rights reserved.</p>
+		</div>
+
+		<!--===== Welcome Animation JS =====-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<script>
+			$(function() {
+				setTimeout(function() {
+					$('.fly-in-text').removeClass('hidden');
+				},500);
+			})();
+		</script>
+	</body>
+</html>
