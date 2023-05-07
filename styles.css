@@ -27,6 +27,11 @@ body {
 	font-size: 37px;
 }
 
+#header a {
+	color: white;
+	text-decoration: none;
+}
+
 #name {
 	float: left;
 }
