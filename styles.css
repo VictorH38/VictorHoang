@@ -274,7 +274,7 @@ body {
 
 /*===== Contact =====*/
 #contact_content {
-	height: 61vh;
+	height: 526px;
 	margin: 0px auto;
 	padding: 80px 10px 10px;
 	font-family: 'Open Sans', sans-serif;
@@ -314,6 +314,17 @@ body {
 	border-radius: 25px;
 	color: white;
 	text-decoration: none;
+}
+
+#email a:hover {
+	background-color: gray;
+}
+
+#background3 {
+	background-image: url('img/hawaii.JPG');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
 }
 
 /*===== Media Queries =====*/
