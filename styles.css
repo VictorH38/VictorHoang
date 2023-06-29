@@ -102,6 +102,7 @@ body {
 	font-size: 2rem;
 	margin: 0px;
 	color: white;
+	transition: all 0.3s ease;
 }
 
 .social_icon:hover {
@@ -194,6 +195,7 @@ body {
 #background2 a {
 	color: white;
 	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 #background2 a:hover {
@@ -266,6 +268,7 @@ body {
 	padding: 20px;
 	color: black;
 	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 #download a:hover {
@@ -299,6 +302,7 @@ body {
 	font-size: 4rem;
 	margin: 0px;
 	color: #666;
+	transition: all 0.3s ease;
 }
 
 .contact_social_icon:hover {
@@ -315,6 +319,7 @@ body {
 	border-radius: 25px;
 	color: white;
 	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 #email a:hover {
